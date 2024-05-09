@@ -1,0 +1,19 @@
+{
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {
+    "ghcr.io/devcontainers/features/dotnet:2": {},
+    "ghcr.io/devcontainers/features/azure-cli:1": {
+			"version": "latest"
+		}
+  },
+	"customizations": {
+		"vscode": {
+			"extensions": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.csdevkit",
+        "ms-azuretools.vscode-azurecontainerapps",
+				"github.copilot"
+      ]
+    }
+  }
+}
